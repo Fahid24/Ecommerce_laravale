@@ -9,7 +9,6 @@ services:
       npm install
       npm run prod
       vite build
-      php artisan migrate --force
     startCommand: |
       php artisan serve
     envVars:
