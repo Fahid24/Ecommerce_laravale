@@ -2,6 +2,7 @@ services:
   - type: web
     name: ecommerce-laravale
     env: php
+    region: oregon
     plan: free
     buildCommand: |
       composer install
